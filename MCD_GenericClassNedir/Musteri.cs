@@ -9,7 +9,7 @@ namespace MCD_GenericClassNedir
     public class Musteri
     {
         public int id { get; set; }
-        public string musteriNumara { get; set; }
+        public Guid musteriNumara { get; set; }
         public string TcKimlikNumarasi { get; set; }
         public string isim { get; set; }
         public string soyisim { get; set; }

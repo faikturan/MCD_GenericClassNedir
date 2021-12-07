@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace MCD_GenericClassNedir
 {
-    class Program
+    public class Urun
     {
-        static void Main(string[] args)
-        {
-          
-
-
-        }
+        public int id { get; set; }
+        public string tanim { get; set; }
     }
 }
